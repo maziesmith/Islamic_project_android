@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">صلى على محمد</string>
+    <string-array name="arr">
+        <item>
+            30ثانية
+        </item>
+        <item>45 ثانية</item>
+        <item>دقيقة</item>
+
+    </string-array>
+</resources>

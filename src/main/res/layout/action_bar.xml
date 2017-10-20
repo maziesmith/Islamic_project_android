@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="محمد رسول الله"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_marginLeft="85dp"
+        android:textColor="#FFFABF29"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="0.30"
+        android:layout_marginRight="0dp"
+        />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_gravity="right"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="100dp" />
+
+</LinearLayout>
